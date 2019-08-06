@@ -1,0 +1,6 @@
+main:main.o
+	gcc *.c 	
+
+.PHONY:clean
+clean:
+		rm -rf main
