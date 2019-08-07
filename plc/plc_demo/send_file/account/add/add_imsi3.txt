@@ -1,0 +1,26 @@
+# 消息头
+#len 表示的是buff需要偏移的长度
+{key=msg_flag,type=short,len=2,val=273}
+{key=msg_type,type=short,len=2,val=517}
+#长度程序会自动填充
+{key=msglen,type=uint,len=4,val=77}
+
+# 动作类型
+{key=user_id,type=char,len=1,val=1}
+{key=group_no,type=char,len=1,val=2}
+# 动作，重启保存，中标统计组合标签
+{key=cmb_flag,type=binary,len=1,val=0111}
+{key=keep,type=char,len=1,val=0}
+{key=rule_id,type=int,len=4,val=40034}
+{key=time,type=timestamp,len=4,val=2018-07-01 15:07:00}
+{key=rule_type_1,type=char,len=1,val=4}
+{key=rule_type_2,type=char,len=1,val=0}
+{key=rule_type_3,type=char,len=1,val=0}
+{key=rule_type_4,type=char,len=1,val=0}
+
+# 实际规则内容
+{key=ac_type,type=char,len=1,val=16}
+{key=keep,type=char,len=1,val=0}
+{key=account,type=string,len=64,val=1111111111111137}
+{key=account_type,type=hex,len=64,val=ffffffffffffffffffffffffffffffff}
+

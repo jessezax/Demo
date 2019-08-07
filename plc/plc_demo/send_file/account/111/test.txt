@@ -1,0 +1,21 @@
+{key=msg_flag,type=short,len=2,val=273}
+{key=msg_type,type=short,len=2,val=517}
+{key=msglen,type=uint,len=4,val=146}
+
+{key=user_id,type=char,len=1,val=1}
+{key=group_no,type=char,len=1,val=2}
+{key=cmb_flag,type=char,len=1,val=112}
+{key=keep,type=char,len=1,val=0}
+{key=rule_id,type=int,len=4,val=331057}
+{key=time,type=timestamp,len=4,val=2018-07-01 15:07:00}
+{key=rule_type_1,type=char,len=1,val=4}
+{key=rule_type_1,type=char,len=1,val=0}
+{key=rule_type_1,type=char,len=1,val=0}
+{key=rule_type_1,type=char,len=1,val=0}
+
+{key=ac_type,type=char,len=1,val=0}
+{key=keep,type=char,len=1,val=0}
+{key=account,type=string,len=64,val=rrmkepxivvcyazdcrgojjrktolzcoroptopzykvrvcszkzo}
+{key=account_mask,type=hex,len=64,val=000000ff00ffffff000000ff0000ff00ff00ff00ff0000ff00ffffffffffff0000ffff00ff00ffff0000ff00ffff00}
+
+

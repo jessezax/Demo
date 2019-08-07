@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appcfg>
+	<!-- hosturl节点，关注host和url就判定id号,id可能有多个按';'隔开-->
+	<hosturl host="baidu.com" >
+		<url value="/login" id="1000001;1010003" />
+		<url value="/dev" id="1000003" />
+	</hosturl>
+	<hosturl host="sina.com" >
+		<url value="/login" id="1000010;1010020" />
+		<url value="/dev" id="1000003" />
+	</hosturl>
+	
+	<!-- urlinfo节点，只关注url就判定id号,id可能有多个按';'隔开-->
+	<urlinfo value="/login" id="1000001" />	
+	<urlinfo value="/dev" id="1000001;1000002;1000003" />
+	
+	<!-- hostinfo节点，只关注host就判定id号,id可能有多个按';'隔开-->
+	<hostinfo value="sina.com" id="1000001" />
+
+	<!--通过userAgent 判定id; id可能有多个按';'隔开 -->
+	<useragentinfo value="sina.com" id="1000001" />
+</appcfg>
