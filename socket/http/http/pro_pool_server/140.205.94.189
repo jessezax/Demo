@@ -1,0 +1,31 @@
+HTTP/1.1 501 Not Implemented
+Server: Tengine
+Date: Fri, 09 Aug 2019 11:21:28 GMT
+Content-Type: text/html
+Content-Length: 585
+Connection: close
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>501 Not Implemented</title></head>
+<body bgcolor="white">
+<h1>501 Not Implemented</h1>
+<p>The requested method to the URL not supported. Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>http://ipstr/index.html</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>l3src8.eu6</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2019/08/09 19:21:28</td>
+</tr>
+</table>
+<hr/>Powered by Tengine</body>
+</html>
